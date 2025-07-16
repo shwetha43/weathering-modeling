@@ -1,0 +1,13 @@
+# Hardcoded example for quadratic equation: ax^2 + bx + c = 0
+a = 1
+b = -3
+c = 2
+
+# Discriminant
+D = b**2 - 4*a*c
+
+# Roots
+root1 = (-b + D**0.5) / (2*a)
+root2 = (-b - D**0.5) / (2*a)
+
+print(f"Roots are: {root1}, {root2}")
